@@ -1,0 +1,25 @@
+num = 6 + 9j
+print(type(num))
+a = 5.6
+b = int(a)
+print(type(b))
+k = float(b)
+
+#complex
+c = complex(b, k)
+print(c)
+
+#range
+print(list(range(2,20,3)))
+
+#dictionary
+dict = {'Zsolt': 'Dacia', 'Marci' : 'Skoda'}
+print(dict)
+print(dict.keys())
+print(dict.values())
+print(dict['Marci'])
+print(dict.get('Marci'))
+
+#string
+print(r'C:\docs\nora')
+print('C:\docs\nora')
